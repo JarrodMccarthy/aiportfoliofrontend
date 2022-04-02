@@ -1,0 +1,12 @@
+#page-content {
+    padding: 2rem 1rem;
+  }
+
+#contractors-dd .Select, .Select div, .Select input,.Select span { 
+  background: blue;  /*to change the background color of the options*/
+  color: black;  /*to change the color of the options */
+  }
+
+.nav-link {
+  color: white;
+}
