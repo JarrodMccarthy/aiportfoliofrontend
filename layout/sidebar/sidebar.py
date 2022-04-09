@@ -8,7 +8,7 @@ from utils.constants import home_page_location
 # it consists of a title, and a toggle, the latter is hidden on large screens
 sidebar_header = dbc.Row(
     [
-        dbc.Col(html.H2("Menu", className="display-4")),
+        dbc.Col(html.H2("", className="display-4")),
         dbc.Col(
             [
                 html.Button(
@@ -61,7 +61,7 @@ sidebar = html.Div(
         dbc.Collapse(
             dbc.Nav(
                 [
-                    dbc.NavLink("Home", href=home_page_location, active="exact", className="nav-link"), #
+                    dbc.NavLink("Projects", href=home_page_location, active="exact", className="nav-link"), #
                 ],
                 vertical=True,
                 pills=True,

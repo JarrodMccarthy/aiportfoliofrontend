@@ -10,3 +10,9 @@
 .nav-link {
   color: white;
 }
+
+.card-title {
+  color: grey;
+  font-size: medium;
+  font-family: Helvetica;
+}

@@ -32,7 +32,7 @@ cache = Cache(app.server, config={
     'CACHE_TYPE': 'filesystem',
     'CACHE_DIR': 'cache-directory'
 })
-app.title = 'Contractor Manager'
+app.title = 'Jarrod McCarthy'
 app.layout = layout
 
 
